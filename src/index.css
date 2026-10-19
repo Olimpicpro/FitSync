@@ -1,0 +1,97 @@
+body{
+
+  display:block;
+}
+.card{
+  border-radius: 10px;
+  border: 1px ;
+  background-color:#161620;
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  max-width: 250px;
+  min-width: 250px;
+  display: inline-block;
+  transition: 0.9s;
+}
+.card button{
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  padding: 7px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card:hover{
+  transform: scale(1.1);
+  cursor:grab;
+}
+.card img{
+  border-radius: 80px;
+  max-width: 100px;
+  min-width: 100px;
+}
+.card h2{
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+}
+body{
+  background-color: #161616;
+  color: grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button{
+  max-width: 100px;
+  min-width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 7px;
+  border-color: blue;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button:hover{
+  transform: scale(1.1);
+}
+.navbar{
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #585858;
+  border-left: transparent;
+  border-right: transparent;
+  display: flex;
+  border-radius: 5px;
+  border-top: transparent;
+  
+}
+.navbar img{
+  border-radius: 50px;
+  margin-left:auto;
+  max-width: 60px;
+  min-width: 60px;
+}
+.navbar h1{
+  color: white;
+  margin: 5px;
+  padding: 5px;
+
+}
+span{
+  color:darkseagreen;
+}
+.navbar a{
+  display: inline-flex;
+  align-items: center;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.copy{
+  text-align: center;
+  margin: 50px;
+}
